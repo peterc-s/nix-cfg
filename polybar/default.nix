@@ -6,7 +6,7 @@
     extraConfig = let
       repo = builtins.fetchGit {
           url = "https://github.com/peterc-s/dotfiles";
-	  rev = "17f74b47c52fc5829641c2d5c9f2a4f5542620f6";
+	  rev = "dcfe9a5b203c66bbff6c1a12494f996867f5e0fa";
       };
       in builtins.readFile "${repo}/polybar/config.ini";
   };

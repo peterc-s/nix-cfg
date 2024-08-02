@@ -83,7 +83,7 @@
     programs.git = {
         enable    = true;
         userName  = "peterc-s";
-        userEmail = "pjcsmail@gmail.com";
+        userEmail = "petercs@skiff.com";
     };
 
     programs.zsh = {
